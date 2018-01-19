@@ -1,6 +1,6 @@
 # 🛤 [redux](https://github.com/reactjs/redux)-track
 
-Ever wanted to track the state of your Redux-powered application without having to add a bunch of metadata to your actions? We did at [Contiamo](https://contiamo.com/), and so I thought I'd build [redux](https://github.com/reactjs/redux)-track.
+Ever wanted to track the state of your Redux-powered application without having to add a bunch of metadata to your actions? We did at [Contiamo](https://contiamo.com/), and so I thought I'd build `redux-track`.
 
 ## What is it?
 
@@ -49,7 +49,7 @@ But what if your event tracker has a _different_ call signature? Well, read on.
 
 ### Case Study: Google Tag Manager
 
-Everyone uses [Google Tag Manager](https://www.google.com/analytics/tag-manager) to track stuff, right? It's so easy! They give you a snippet, and then an event tracker! So cool! Here's how it would work in a typical Redux app with `[redux](https://github.com/reactjs/redux)-track`:
+Everyone uses [Google Tag Manager](https://www.google.com/analytics/tag-manager) to track stuff, right? It's so easy! They give you a snippet, and then an event tracker! So cool! Here's how it would work in a typical Redux app with `redux-track`:
 
 First, Add your tracking code to your webpage, it looks something like this:
 
