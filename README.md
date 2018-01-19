@@ -1,4 +1,4 @@
-# 🛤 `[redux](https://redux.js.org)-track`
+# 🛤 `redux-track`
 
 Ever wanted to track the state of your Redux-powered application without having to add a bunch of metadata to your actions? We did at [Contiamo](https://contiamo.com/), and so I thought I'd build `[redux](https://github.com/reactjs/redux)-track`.
 
