@@ -4,4 +4,4 @@ node_js:
 - stable
 
 # When Travis gets notified of a new build, do this
-script: npm t
+script: npm test
