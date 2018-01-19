@@ -1,6 +1,6 @@
 # 🛤 `redux-track`
 
-Ever wanted to track the state of your Redux-powered application without having to add a bunch of metadata to your actions? We did at [Contiamo](https://contiamo.com/), and so I thought I'd build `[redux](https://github.com/reactjs/redux)-track`.
+Ever wanted to track the state of your Redux-powered application without having to add a bunch of metadata to your actions? We did at [Contiamo](https://contiamo.com/), and so I thought I'd build [redux](https://github.com/reactjs/redux)-track.
 
 ## What is it?
 
@@ -18,7 +18,7 @@ Simple! Just add a `reduxTrack` prop with a _reference_ to your tracking functio
 
 So at Contiamo, we have our own _really cool_ event tracker that we built in-house. It's fairly similar to others out there: you include a snippet in your HTML page before `</body>` that registers a global at `window.contiamo`, that you can track events with by invoking `contiamo.event('name', { any: 'thing', can: 'go', in: 'here' })`, which is then sent to our platform.
 
-To use this with `[redux](https://github.com/reactjs/redux)-track`, we simply update one of our actions from our codebase, say one that handles _pagination_, to reference this function in a property called `reduxTrack`. Concretely, here is what this looks like:
+To use this with `redux-track`, we simply update one of our actions from our codebase, say one that handles _pagination_, to reference this function in a property called `reduxTrack`. Concretely, here is what this looks like:
 
 #### BEFORE
 
