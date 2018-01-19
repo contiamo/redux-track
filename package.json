@@ -1,6 +1,6 @@
 {
   "name": "redux-track",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "author": "Tejas Kumar <tejas@tejas.qa>",
   "license": "MIT",
@@ -9,7 +9,9 @@
     "precommit": "npm run test",
     "prepublish": "yarn tsc"
   },
-  "files": ["dist/index.js"],
+  "files": [
+    "dist/index.js"
+  ],
   "dependencies": {
     "redux": "^3.7.2"
   },
@@ -26,7 +28,10 @@
     "transform": {
       "\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "moduleFileExtensions": ["ts", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
     "testRegex": ".*\\.test\\.ts$",
     "mapCoverage": true
   }
