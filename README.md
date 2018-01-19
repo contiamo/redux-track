@@ -82,9 +82,11 @@ This requires some fun coding, because `gtag`'s event tracker has a _slightly di
 For comparison,
 
 This middleware expects:
+
 `(eventName: string, eventMetadata: {}) => void`
 
 Google Tag Manager gives you:
+
 `(hitType: string, eventName: string, eventMetadata: {}) => void`
 
 🤔 How can we solve this? Well, write an adapter as so:
