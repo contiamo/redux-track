@@ -14,7 +14,7 @@ This little piece of code runs a function that you give it in your action under 
 
 ## How do I use it?
 
-Simple! Just add a `reduxTrack` prop with a _reference_ to your tracking function. Here's a little case study.
+Simple! Just add a `reduxTrack` property with a _reference_ to your tracking function into your [action](https://redux.js.org/docs/basics/Actions.html) or action creator. Here's a little case study.
 
 ### Case Study: Generic Event Tracker
 
