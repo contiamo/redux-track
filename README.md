@@ -24,7 +24,7 @@ import { createStore, applyMiddleware } from "redux"
 import { reduxTrack } from "redux-track"
 import { rootReducer } from "./reducer"
 
-const myStore = createStore(rootReducer, applyMiddleware(reduxTrack))
+export const myStore = createStore(rootReducer, applyMiddleware(reduxTrack))
 ```
 
 **Note:** you probably have other middlewares going on. Redux Middleware is _composable_, so you can just add it on to a list if you need to.
