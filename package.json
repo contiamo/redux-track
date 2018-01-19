@@ -1,6 +1,6 @@
 {
   "name": "redux-track",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": "index.ts",
   "author": "Tejas Kumar <tejas@tejas.qa>",
   "license": "MIT",
