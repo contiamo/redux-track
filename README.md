@@ -14,7 +14,25 @@ This little piece of code runs a function that you give it in your action under 
 
 ## How do I use it?
 
-Simple! Just add a `reduxTrack` property with a _reference_ to your tracking function into your [action](https://redux.js.org/docs/basics/Actions.html) or action creator. Here's a little case study.
+Simple!
+
+* `yarn add redux-track`
+* Apply the middleware to your redux store in similar fashion:
+
+```js
+import { createStore, applyMiddleware } from "redux"
+import { reduxTrack } from "redux-track"
+import { rootReducer } from "./reducer"
+
+const myStore = createStore(rootReducer, applyMiddleware(reduxTrack))
+```
+
+**Note:** you probably have other middlewares going on. Redux Middleware is _composable_, so you can just add it on to a list if you need to.
+
+* Find a Redux action/action creator that you'd like to track with your event tracker.
+* Reference your event tracker's tracking function in a `reduxTrack` property on the action.
+
+Fore more detailed instructions, see the case studies below.
 
 ### Case Study: Generic Event Tracker
 
