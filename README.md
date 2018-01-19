@@ -9,6 +9,7 @@ If you're unfamiliar with [Redux](https://github.com/reactjs/redux), I'd highly 
 It also allows you to put middlemen (read: middleware) between the thing that updates the state and the actual state update itself. That's what this is: when you say _"HEY REDUX, UPDATE THE STATE!"_, this little piece of code is run _just before_ Redux says _"OK WILL DO THX"_.
 
 This little piece of code runs a function that you give it in your action under the key `reduxTrack` that handles the rest for you, since most tracker functions carry similar (if not the same) call signatures:
+
 `(name: string, payload: { [key: string]: any }) => void`.
 
 ## How do I use it?
