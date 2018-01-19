@@ -108,7 +108,7 @@ function addTodo(text) {
 }
 ```
 
-and reference this middleware in a `reduxTrack` property whose value is our new adapted function `myEventTracker` as so:
+and reference this newly created function `myEventTracker` in a `reduxTrack` property as so:
 
 ```js
 function addTodo(text) {
@@ -120,7 +120,7 @@ function addTodo(text) {
 }
 ```
 
-Simple!
+Simple! You now have your action(s) sending events to Google Tag Manager. Yay!
 
 ## Contributing
 
