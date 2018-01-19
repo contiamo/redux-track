@@ -7,11 +7,10 @@
   "scripts": {
     "test": "jest --coverage",
     "precommit": "npm run test",
-    "prepublish": "yarn tsc"
+    "prepublish": "yarn tsc",
+    "ci": "npm run test --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
-  "files": [
-    "dist/index.js"
-  ],
+  "files": ["dist/index.js"],
   "dependencies": {
     "redux": "^3.7.2"
   },
@@ -29,10 +28,7 @@
     "transform": {
       "\\.ts$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
-    "moduleFileExtensions": [
-      "ts",
-      "js"
-    ],
+    "moduleFileExtensions": ["ts", "js"],
     "testRegex": ".*\\.test\\.ts$",
     "mapCoverage": true
   }
