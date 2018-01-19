@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest --coverage",
-    "precommit": "npm run test"
+    "precommit": "npm run test",
+    "prepublish": "yarn tsc"
   },
   "files": ["dist/index.js"],
   "dependencies": {
