@@ -1,7 +1,7 @@
 # 🛤 [redux](https://github.com/reactjs/redux)-track
 
 [![Coverage Status](https://coveralls.io/repos/github/Contiamo/redux-track/badge.svg?branch=master)](https://coveralls.io/github/Contiamo/redux-track?branch=master)
-[![Travis CI Build Status](https://travis-ci.org/Contiamo/redux-track.svg?branch=master)](https://travis-ci.org/Contiamo/redux-track)
+[![Travis CI Build Status](https://travis-ci.org/Contiamo/redux-track.svg?branch=master)](https://travis-ci.org/Contiamo/redux-track) [![Greenkeeper badge](https://badges.greenkeeper.io/contiamo/redux-track.svg)](https://greenkeeper.io/)
 
 Ever wanted to track the state of your Redux-powered application without having to add a bunch of metadata to your actions? We did at [Contiamo](https://contiamo.com/), and so I thought I'd build `redux-track`.
 
